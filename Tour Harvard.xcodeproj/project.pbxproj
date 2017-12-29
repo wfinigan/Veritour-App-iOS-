@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		125BABD06DDB8F2CE7DAA72E /* Pods_Tour_Harvard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A811AB8C2DFDBD3E4F5AFC8E /* Pods_Tour_Harvard.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4C64140C1DE8E1A2000571EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64140B1DE8E1A2000571EC /* AppDelegate.swift */; };
+		4C6414111DE8E1A2000571EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C64140F1DE8E1A2000571EC /* Main.storyboard */; };
+		4C6414131DE8E1A2000571EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6414121DE8E1A2000571EC /* Assets.xcassets */; };
+		4C6414161DE8E1A2000571EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6414141DE8E1A2000571EC /* LaunchScreen.storyboard */; };
+		4C6414211DE8E1A2000571EC /* Tour_HarvardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6414201DE8E1A2000571EC /* Tour_HarvardTests.swift */; };
+		4C64142C1DE8E1A2000571EC /* Tour_HarvardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C64142B1DE8E1A2000571EC /* Tour_HarvardUITests.swift */; };
+		4CDBBC921DF1181C00FAF60D /* Pins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDBBC911DF1181C00FAF60D /* Pins.swift */; };
+		C97FDF020CA146BDA0374753 /* Pods_Tour_HarvardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862EE8C7F8896A017951330F /* Pods_Tour_HarvardUITests.framework */; };
+		F26454D9CBDF9201ED90CF79 /* Pods_Tour_HarvardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7C5245065F2985F9F7829F /* Pods_Tour_HarvardTests.framework */; };
+		F910AFB81DF7DAD400BDB4E6 /* menuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910AFB71DF7DAD400BDB4E6 /* menuVC.swift */; };
+		F910AFBA1DF7DF7300BDB4E6 /* helpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F910AFB91DF7DF7300BDB4E6 /* helpView.swift */; };
+		F9344C9C1DF12FCE0009AAB2 /* infoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9344C9B1DF12FCE0009AAB2 /* infoVC.swift */; };
+		F9344CDB1DF1547B0009AAB2 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9344CDA1DF1547B0009AAB2 /* AboutView.swift */; };
+		F9BFB5111DEE1C0D00D9DE59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BFB5101DEE1C0D00D9DE59 /* ViewController.swift */; };
+		F9BFB5131DEE1DD800D9DE59 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BFB5121DEE1DD800D9DE59 /* MapKit.framework */; };
+		F9BFB5151DEE214700D9DE59 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BFB5141DEE214700D9DE59 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C64141D1DE8E1A2000571EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6414001DE8E1A1000571EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6414071DE8E1A1000571EC;
+			remoteInfo = "Tour Harvard";
+		};
+		4C6414281DE8E1A2000571EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C6414001DE8E1A1000571EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C6414071DE8E1A1000571EC;
+			remoteInfo = "Tour Harvard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B17D39DCA9F8F146CAE03F2 /* Pods-Tour Harvard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour Harvard.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour Harvard/Pods-Tour Harvard.release.xcconfig"; sourceTree = "<group>"; };
+		4C6414081DE8E1A2000571EC /* Tour Harvard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tour Harvard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C64140B1DE8E1A2000571EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C6414101DE8E1A2000571EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C6414121DE8E1A2000571EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C6414151DE8E1A2000571EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C6414171DE8E1A2000571EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C64141C1DE8E1A2000571EC /* Tour HarvardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tour HarvardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6414201DE8E1A2000571EC /* Tour_HarvardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour_HarvardTests.swift; sourceTree = "<group>"; };
+		4C6414221DE8E1A2000571EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6414271DE8E1A2000571EC /* Tour HarvardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tour HarvardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C64142B1DE8E1A2000571EC /* Tour_HarvardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour_HarvardUITests.swift; sourceTree = "<group>"; };
+		4C64142D1DE8E1A2000571EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDBBC911DF1181C00FAF60D /* Pins.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pins.swift; path = ../Pins.swift; sourceTree = "<group>"; };
+		5C7C5245065F2985F9F7829F /* Pods_Tour_HarvardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tour_HarvardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		862EE8C7F8896A017951330F /* Pods_Tour_HarvardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tour_HarvardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F9478966A313EE7A58BBC0 /* Pods-Tour HarvardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour HarvardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour HarvardTests/Pods-Tour HarvardTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BCE9E2E18BDB7E4C73BCCA4 /* Pods-Tour HarvardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour HarvardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tour HarvardUITests/Pods-Tour HarvardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6AFEC6E9BB33EC73D9B50F9 /* Pods-Tour HarvardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour HarvardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour HarvardUITests/Pods-Tour HarvardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A811AB8C2DFDBD3E4F5AFC8E /* Pods_Tour_Harvard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tour_Harvard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD4380272ADF6308F8AD56E /* Pods-Tour Harvard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour Harvard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour Harvard/Pods-Tour Harvard.debug.xcconfig"; sourceTree = "<group>"; };
+		EBBB02BCE9B4D2A193B40AE9 /* Pods-Tour HarvardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tour HarvardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tour HarvardTests/Pods-Tour HarvardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F910AFB71DF7DAD400BDB4E6 /* menuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuVC.swift; sourceTree = "<group>"; };
+		F910AFB91DF7DF7300BDB4E6 /* helpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helpView.swift; sourceTree = "<group>"; };
+		F9344C9B1DF12FCE0009AAB2 /* infoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoVC.swift; sourceTree = "<group>"; };
+		F9344CDA1DF1547B0009AAB2 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		F9BFB5101DEE1C0D00D9DE59 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9BFB5121DEE1DD800D9DE59 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F9BFB5141DEE214700D9DE59 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6414051DE8E1A1000571EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BFB5151DEE214700D9DE59 /* CoreLocation.framework in Frameworks */,
+				F9BFB5131DEE1DD800D9DE59 /* MapKit.framework in Frameworks */,
+				125BABD06DDB8F2CE7DAA72E /* Pods_Tour_Harvard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6414191DE8E1A2000571EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26454D9CBDF9201ED90CF79 /* Pods_Tour_HarvardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6414241DE8E1A2000571EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97FDF020CA146BDA0374753 /* Pods_Tour_HarvardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		444E49088A3A2516DD2E6123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFB5141DEE214700D9DE59 /* CoreLocation.framework */,
+				F9BFB5121DEE1DD800D9DE59 /* MapKit.framework */,
+				A811AB8C2DFDBD3E4F5AFC8E /* Pods_Tour_Harvard.framework */,
+				5C7C5245065F2985F9F7829F /* Pods_Tour_HarvardTests.framework */,
+				862EE8C7F8896A017951330F /* Pods_Tour_HarvardUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C6413FF1DE8E1A1000571EC = {
+			isa = PBXGroup;
+			children = (
+				4C64140A1DE8E1A2000571EC /* Tour Harvard */,
+				4C64141F1DE8E1A2000571EC /* Tour HarvardTests */,
+				4C64142A1DE8E1A2000571EC /* Tour HarvardUITests */,
+				4C6414091DE8E1A2000571EC /* Products */,
+				9E5560CDA630B63D58922D1F /* Pods */,
+				444E49088A3A2516DD2E6123 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6414091DE8E1A2000571EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6414081DE8E1A2000571EC /* Tour Harvard.app */,
+				4C64141C1DE8E1A2000571EC /* Tour HarvardTests.xctest */,
+				4C6414271DE8E1A2000571EC /* Tour HarvardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C64140A1DE8E1A2000571EC /* Tour Harvard */ = {
+			isa = PBXGroup;
+			children = (
+				4CDBBC911DF1181C00FAF60D /* Pins.swift */,
+				4C64140B1DE8E1A2000571EC /* AppDelegate.swift */,
+				F9BFB5101DEE1C0D00D9DE59 /* ViewController.swift */,
+				F9344C9B1DF12FCE0009AAB2 /* infoVC.swift */,
+				4C64140F1DE8E1A2000571EC /* Main.storyboard */,
+				4C6414121DE8E1A2000571EC /* Assets.xcassets */,
+				4C6414141DE8E1A2000571EC /* LaunchScreen.storyboard */,
+				4C6414171DE8E1A2000571EC /* Info.plist */,
+				F9344CDA1DF1547B0009AAB2 /* AboutView.swift */,
+				F910AFB71DF7DAD400BDB4E6 /* menuVC.swift */,
+				F910AFB91DF7DF7300BDB4E6 /* helpView.swift */,
+			);
+			path = "Tour Harvard";
+			sourceTree = "<group>";
+		};
+		4C64141F1DE8E1A2000571EC /* Tour HarvardTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C6414201DE8E1A2000571EC /* Tour_HarvardTests.swift */,
+				4C6414221DE8E1A2000571EC /* Info.plist */,
+			);
+			path = "Tour HarvardTests";
+			sourceTree = "<group>";
+		};
+		4C64142A1DE8E1A2000571EC /* Tour HarvardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C64142B1DE8E1A2000571EC /* Tour_HarvardUITests.swift */,
+				4C64142D1DE8E1A2000571EC /* Info.plist */,
+			);
+			path = "Tour HarvardUITests";
+			sourceTree = "<group>";
+		};
+		9E5560CDA630B63D58922D1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBD4380272ADF6308F8AD56E /* Pods-Tour Harvard.debug.xcconfig */,
+				2B17D39DCA9F8F146CAE03F2 /* Pods-Tour Harvard.release.xcconfig */,
+				EBBB02BCE9B4D2A193B40AE9 /* Pods-Tour HarvardTests.debug.xcconfig */,
+				99F9478966A313EE7A58BBC0 /* Pods-Tour HarvardTests.release.xcconfig */,
+				A6AFEC6E9BB33EC73D9B50F9 /* Pods-Tour HarvardUITests.debug.xcconfig */,
+				9BCE9E2E18BDB7E4C73BCCA4 /* Pods-Tour HarvardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6414071DE8E1A1000571EC /* Tour Harvard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6414301DE8E1A2000571EC /* Build configuration list for PBXNativeTarget "Tour Harvard" */;
+			buildPhases = (
+				064EB3ABA2F7500C3A9E2DF2 /* [CP] Check Pods Manifest.lock */,
+				4C6414041DE8E1A1000571EC /* Sources */,
+				4C6414051DE8E1A1000571EC /* Frameworks */,
+				4C6414061DE8E1A1000571EC /* Resources */,
+				8F266F2C459FA52B543B0909 /* [CP] Embed Pods Frameworks */,
+				F2DB81FA9C43C7BF7BB42BF3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tour Harvard";
+			productName = "Tour Harvard";
+			productReference = 4C6414081DE8E1A2000571EC /* Tour Harvard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C64141B1DE8E1A2000571EC /* Tour HarvardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6414331DE8E1A2000571EC /* Build configuration list for PBXNativeTarget "Tour HarvardTests" */;
+			buildPhases = (
+				A4BC5143FF48102E00EDC576 /* [CP] Check Pods Manifest.lock */,
+				4C6414181DE8E1A2000571EC /* Sources */,
+				4C6414191DE8E1A2000571EC /* Frameworks */,
+				4C64141A1DE8E1A2000571EC /* Resources */,
+				0BD3BE5F157E8DCFE077FE59 /* [CP] Embed Pods Frameworks */,
+				5134EED4546D789C9DF0E5F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C64141E1DE8E1A2000571EC /* PBXTargetDependency */,
+			);
+			name = "Tour HarvardTests";
+			productName = "Tour HarvardTests";
+			productReference = 4C64141C1DE8E1A2000571EC /* Tour HarvardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C6414261DE8E1A2000571EC /* Tour HarvardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6414361DE8E1A2000571EC /* Build configuration list for PBXNativeTarget "Tour HarvardUITests" */;
+			buildPhases = (
+				596088B5841E0AD1E0AB1310 /* [CP] Check Pods Manifest.lock */,
+				4C6414231DE8E1A2000571EC /* Sources */,
+				4C6414241DE8E1A2000571EC /* Frameworks */,
+				4C6414251DE8E1A2000571EC /* Resources */,
+				65BA850B5618FAB37A4691DC /* [CP] Embed Pods Frameworks */,
+				20D229B87F01054A65D377C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C6414291DE8E1A2000571EC /* PBXTargetDependency */,
+			);
+			name = "Tour HarvardUITests";
+			productName = "Tour HarvardUITests";
+			productReference = 4C6414271DE8E1A2000571EC /* Tour HarvardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6414001DE8E1A1000571EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "The Boys";
+				TargetAttributes = {
+					4C6414071DE8E1A1000571EC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5N67E3B5ZT;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4C64141B1DE8E1A2000571EC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C6414071DE8E1A1000571EC;
+					};
+					4C6414261DE8E1A2000571EC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C6414071DE8E1A1000571EC;
+					};
+				};
+			};
+			buildConfigurationList = 4C6414031DE8E1A1000571EC /* Build configuration list for PBXProject "Tour Harvard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C6413FF1DE8E1A1000571EC;
+			productRefGroup = 4C6414091DE8E1A2000571EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6414071DE8E1A1000571EC /* Tour Harvard */,
+				4C64141B1DE8E1A2000571EC /* Tour HarvardTests */,
+				4C6414261DE8E1A2000571EC /* Tour HarvardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6414061DE8E1A1000571EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6414161DE8E1A2000571EC /* LaunchScreen.storyboard in Resources */,
+				4C6414131DE8E1A2000571EC /* Assets.xcassets in Resources */,
+				4C6414111DE8E1A2000571EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C64141A1DE8E1A2000571EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6414251DE8E1A2000571EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		064EB3ABA2F7500C3A9E2DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0BD3BE5F157E8DCFE077FE59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour HarvardTests/Pods-Tour HarvardTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20D229B87F01054A65D377C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour HarvardUITests/Pods-Tour HarvardUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5134EED4546D789C9DF0E5F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour HarvardTests/Pods-Tour HarvardTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		596088B5841E0AD1E0AB1310 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65BA850B5618FAB37A4691DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour HarvardUITests/Pods-Tour HarvardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F266F2C459FA52B543B0909 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour Harvard/Pods-Tour Harvard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4BC5143FF48102E00EDC576 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2DB81FA9C43C7BF7BB42BF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tour Harvard/Pods-Tour Harvard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6414041DE8E1A1000571EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9344C9C1DF12FCE0009AAB2 /* infoVC.swift in Sources */,
+				4CDBBC921DF1181C00FAF60D /* Pins.swift in Sources */,
+				F9BFB5111DEE1C0D00D9DE59 /* ViewController.swift in Sources */,
+				F910AFB81DF7DAD400BDB4E6 /* menuVC.swift in Sources */,
+				F910AFBA1DF7DF7300BDB4E6 /* helpView.swift in Sources */,
+				4C64140C1DE8E1A2000571EC /* AppDelegate.swift in Sources */,
+				F9344CDB1DF1547B0009AAB2 /* AboutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6414181DE8E1A2000571EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6414211DE8E1A2000571EC /* Tour_HarvardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C6414231DE8E1A2000571EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C64142C1DE8E1A2000571EC /* Tour_HarvardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C64141E1DE8E1A2000571EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6414071DE8E1A1000571EC /* Tour Harvard */;
+			targetProxy = 4C64141D1DE8E1A2000571EC /* PBXContainerItemProxy */;
+		};
+		4C6414291DE8E1A2000571EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C6414071DE8E1A1000571EC /* Tour Harvard */;
+			targetProxy = 4C6414281DE8E1A2000571EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C64140F1DE8E1A2000571EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6414101DE8E1A2000571EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C6414141DE8E1A2000571EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6414151DE8E1A2000571EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C64142E1DE8E1A2000571EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = "$(inherited)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C64142F1DE8E1A2000571EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = "$(inherited)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6414311DE8E1A2000571EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD4380272ADF6308F8AD56E /* Pods-Tour Harvard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5N67E3B5ZT;
+				INFOPLIST_FILE = "Tour Harvard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs50.Tour-HarvardTheBoyss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C6414321DE8E1A2000571EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B17D39DCA9F8F146CAE03F2 /* Pods-Tour Harvard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5N67E3B5ZT;
+				INFOPLIST_FILE = "Tour Harvard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs50.Tour-HarvardTheBoyss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4C6414341DE8E1A2000571EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBBB02BCE9B4D2A193B40AE9 /* Pods-Tour HarvardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tour HarvardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs50.Tour-HarvardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tour Harvard.app/Tour Harvard";
+			};
+			name = Debug;
+		};
+		4C6414351DE8E1A2000571EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F9478966A313EE7A58BBC0 /* Pods-Tour HarvardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Tour HarvardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs50.Tour-HarvardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tour Harvard.app/Tour Harvard";
+			};
+			name = Release;
+		};
+		4C6414371DE8E1A2000571EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6AFEC6E9BB33EC73D9B50F9 /* Pods-Tour HarvardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Tour HarvardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs50.Tour-HarvardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Tour Harvard";
+			};
+			name = Debug;
+		};
+		4C6414381DE8E1A2000571EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCE9E2E18BDB7E4C73BCCA4 /* Pods-Tour HarvardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Tour HarvardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs50.Tour-HarvardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Tour Harvard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6414031DE8E1A1000571EC /* Build configuration list for PBXProject "Tour Harvard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C64142E1DE8E1A2000571EC /* Debug */,
+				4C64142F1DE8E1A2000571EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6414301DE8E1A2000571EC /* Build configuration list for PBXNativeTarget "Tour Harvard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6414311DE8E1A2000571EC /* Debug */,
+				4C6414321DE8E1A2000571EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6414331DE8E1A2000571EC /* Build configuration list for PBXNativeTarget "Tour HarvardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6414341DE8E1A2000571EC /* Debug */,
+				4C6414351DE8E1A2000571EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6414361DE8E1A2000571EC /* Build configuration list for PBXNativeTarget "Tour HarvardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6414371DE8E1A2000571EC /* Debug */,
+				4C6414381DE8E1A2000571EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6414001DE8E1A1000571EC /* Project object */;
+}
